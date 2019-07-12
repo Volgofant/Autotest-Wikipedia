@@ -57,7 +57,24 @@ public class MainPageTest{
         createAccountPage.insertKapcha ("ssssssssssssssssssssss");
         createAccountPage.clickButton ();
         String errorMessageKaptcha = createAccountPage.getErrorKaptchaText ();
-        Assert.assertEquals ("Контрольная комбинация неверна или не введена.", errorMessageKaptcha);
+        Assert.assertEquals ("Посетители этой вики, использующие ваш IP-адрес, создали 3 аккаунта за последний день, что является максимумом за этот промежуток времени. В результате, посетители с этого IP-адреса больше не могут создавать аккаунты в данный момент.", errorMessageKaptcha);
+    }
+    @Test
+    public void createAccountOnNewArticle() {
+        mainPage.clickCreateNewArticle ();
+        CreateNewArticlePage createNewArticlePage = new CreateNewArticlePage (driver);
+        String header = createNewArticlePage.getHeadingText ();
+        Assert.assertEquals ("Википедия:Мастер статей", header);
+    }
+    @Test
+    public void inCreateArticleGoToCreateAcc() {
+        mainPage.clickCreateNewArticle ();
+        CreateNewArticlePage createNewArticlePage = new CreateNewArticlePage (driver);
+        createNewArticlePage.clickLoginAnyway ();
+        CreateAccountPage createAccountPage = mainPage.clickCreateAccount ();
+        String header = createAccountPage.getHeadingText ();
+        Assert.assertEquals ("Создать учётную запись", header);
+
     }
 
     @After

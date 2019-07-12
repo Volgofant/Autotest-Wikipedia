@@ -20,7 +20,8 @@ public class CreateAccountPage{
         By errorMessage = By.xpath ("//span[text()='Введённое имя участника уже используется.\n" +
                 "Пожалуйста, выберите другое имя.']");
         By passwordErrorMessage = By.xpath ("//span[text()='Часто выбираемые пароли не могут быть использованы. Пожалуйста, выберите пароль, который сложнее угадать.']");
-        By errorKaptchaMessage = By.xpath ("//p[text()='Контрольная комбинация неверна или не введена.']");
+        By errorKaptchaMessage = By.xpath ("//div[@class=\"error\"]/p[1]");
+
 
     public CreateAccountPage insertLogin (String newLogin) {
         driver.findElement (login).sendKeys (newLogin);

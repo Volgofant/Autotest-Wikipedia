@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c407a39-5e0f-4217-b7ba-d7e17d674e0a" name="Default Changelist" comment="" />
+    <list default="true" id="6c407a39-5e0f-4217-b7ba-d7e17d674e0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/CreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CreateNewArticlePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateNewArticlePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="17">
               <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -30,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="17" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,21 +47,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CreateNewArticlePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="110">
+              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CreateAccountPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="161">
+              <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
@@ -70,25 +78,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="58" column="55" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+            <state relative-caret-position="231">
+              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2110#2111#0" expanded="true" />
                 <element signature="e#2140#2141#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -120,15 +119,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CreateNewArticlePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyContributionPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CreateNewArticlePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/CreateAccountPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
       </list>
     </option>
   </component>
@@ -198,6 +197,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../InsertKD/src/main/java/MainPage.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -215,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageTest.capchaPaste">
+  <component name="RunManager" selected="JUnit.MainPageTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -243,6 +243,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainPageTest" />
       <option name="METHOD_NAME" value="capchaPaste" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.inCreateArticleGoToCreateAcc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tskTestWiki" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="inCreateArticleGoToCreateAcc" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -298,8 +309,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPageTest.capchaPaste" />
         <item itemvalue="JUnit.MainPageTest" />
+        <item itemvalue="JUnit.MainPageTest.capchaPaste" />
+        <item itemvalue="JUnit.MainPageTest.inCreateArticleGoToCreateAcc" />
         <item itemvalue="JUnit.MainPageTest.logIn" />
         <item itemvalue="JUnit.MainPageTest.logInPaste" />
       </list>
@@ -319,35 +331,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainPageTest_logInPaste - 2019.07.11 at 15h 02m 20s.xml">
-      <configuration name="MainPageTest.logInPaste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest - 2019.07.11 at 15h 02m 52s.xml">
+    <history-entry file="MainPageTest - 2019.07.12 at 10h 04m 00s.xml">
       <configuration name="MainPageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTest_logInPaste - 2019.07.11 at 16h 53m 06s.xml">
-      <configuration name="MainPageTest.logInPaste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_logInPaste - 2019.07.11 at 16h 53m 26s.xml">
-      <configuration name="MainPageTest.logInPaste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest - 2019.07.11 at 17h 02m 10s.xml">
+    <history-entry file="MainPageTest - 2019.07.12 at 14h 08m 56s.xml">
       <configuration name="MainPageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTest_logInPaste - 2019.07.11 at 17h 02m 50s.xml">
-      <configuration name="MainPageTest.logInPaste" configurationId="JUnit" />
+    <history-entry file="MainPageTest_inCreateArticleGoToCreateAcc - 2019.07.12 at 14h 15m 12s.xml">
+      <configuration name="MainPageTest.inCreateArticleGoToCreateAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTest_logIn - 2019.07.11 at 17h 06m 29s.xml">
-      <configuration name="MainPageTest.logIn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest - 2019.07.11 at 17h 07m 00s.xml">
+    <history-entry file="MainPageTest - 2019.07.12 at 14h 16m 05s.xml">
       <configuration name="MainPageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageTest - 2019.07.12 at 09h 45m 43s.xml">
-      <configuration name="MainPageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_capchaPaste - 2019.07.12 at 09h 46m 59s.xml">
+    <history-entry file="MainPageTest_capchaPaste - 2019.07.12 at 14h 18m 30s.xml">
       <configuration name="MainPageTest.capchaPaste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest_capchaPaste - 2019.07.12 at 14h 20m 39s.xml">
+      <configuration name="MainPageTest.capchaPaste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest_capchaPaste - 2019.07.12 at 14h 24m 47s.xml">
+      <configuration name="MainPageTest.capchaPaste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest_capchaPaste - 2019.07.12 at 14h 26m 26s.xml">
+      <configuration name="MainPageTest.capchaPaste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest_capchaPaste - 2019.07.12 at 14h 27m 59s.xml">
+      <configuration name="MainPageTest.capchaPaste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.07.12 at 14h 28m 50s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -387,11 +399,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/MainPageTest.java</url>
-          <line>32</line>
-          <properties class="MainPageTest" method="logInPaste">
+          <line>50</line>
+          <properties class="MainPageTest" method="capchaPaste">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -442,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="17">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -450,23 +462,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreateNewArticlePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-end-line="9" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CreateNewArticlePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreateAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="161">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
           <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#2165#2166#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2362#2363#0" expanded="true" />
+            <element signature="e#2437#2438#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -481,37 +519,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="58" column="55" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+        <state relative-caret-position="231">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2110#2111#0" expanded="true" />
             <element signature="e#2140#2141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CreateAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2362#2363#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
           </folding>
         </state>
       </provider>
