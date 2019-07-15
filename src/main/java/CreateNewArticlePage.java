@@ -17,6 +17,7 @@ public class CreateNewArticlePage{
     public String getHeadingText() {
         return driver.findElement (header).getText ();
     }
+
     public CreateAccountPage clickLoginAnyway() {
         driver.findElement (loginAnyway).click ();
         return new CreateAccountPage (driver);

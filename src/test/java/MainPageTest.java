@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import sun.rmi.runtime.Log;
 
 import java.util.concurrent.TimeUnit;
 
@@ -25,10 +26,15 @@ public class MainPageTest{
 
     @Test
     public void logIn() {
-        CreateAccountPage createAccountPage = mainPage.clickCreateAccount ();
-        String heading = createAccountPage.getHeadingText ();
+        String heading = null;
+        for (int i = 0; i < 5; i++) {
+            CreateAccountPage createAccountPage = mainPage.clickCreateAccount ();
+            heading = createAccountPage.getHeadingText ();
+
+        }
         Assert.assertEquals ("Создать учётную запись", heading);
     }
+
     @Test
     public void logInPaste() {
         CreateAccountPage createAccountPage = mainPage.clickCreateAccount ();
@@ -57,7 +63,7 @@ public class MainPageTest{
         createAccountPage.insertKapcha ("ssssssssssssssssssssss");
         createAccountPage.clickButton ();
         String errorMessageKaptcha = createAccountPage.getErrorKaptchaText ();
-        Assert.assertEquals ("Посетители этой вики, использующие ваш IP-адрес, создали 3 аккаунта за последний день, что является максимумом за этот промежуток времени. В результате, посетители с этого IP-адреса больше не могут создавать аккаунты в данный момент.", errorMessageKaptcha);
+        Assert.assertEquals ("Контрольная комбинация неверна или не введена.", errorMessageKaptcha);
     }
     @Test
     public void createAccountOnNewArticle() {
@@ -74,6 +80,25 @@ public class MainPageTest{
         CreateAccountPage createAccountPage = mainPage.clickCreateAccount ();
         String header = createAccountPage.getHeadingText ();
         Assert.assertEquals ("Создать учётную запись", header);
+
+    }
+    @Test
+    public void checkLoginPage() {
+        mainPage.clickLogin ();
+        LoginPage loginPage = new LoginPage (driver);
+        String heading = loginPage.getHeadingText ();
+        Assert.assertEquals ("Войти", heading);
+    }
+    @Test
+    public void loginPageIn() {
+        mainPage.clickLogin ();
+        LoginPage loginPage = new LoginPage (driver);
+        loginPage.insertLogin ("login");
+        loginPage.insertPassword ("password");
+        loginPage.checkedChecbox ();
+        loginPage.clickButton ();
+        String errors = loginPage.getErrorMessage ();
+        Assert.assertEquals ("Введены неверные имя участника или пароль. Попробуйте ещё раз.", errors);
 
     }
 
